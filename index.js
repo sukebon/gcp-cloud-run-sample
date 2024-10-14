@@ -13,5 +13,5 @@ app.get("/hello", async (req, res) => {
 app.use(router);
 
 app.listen(port, () => {
-  console.log(`ctc-buildservice-sample: listening on port ${port}`);
+  console.log(`listening on port ${port}`);
 });
